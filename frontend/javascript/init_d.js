@@ -6,7 +6,7 @@ function init_d (event)
 	var desktop = new Gwt.Desktop ();
 	
 	var example = new Gwt.Window ();
-	example.set_width_border (10);
+	example.set_border_width (10);
 	example.set_size (300, 400);
 	
 	var text = new Gwt.Static_text ();

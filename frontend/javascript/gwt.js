@@ -135,7 +135,7 @@ Window.prototype.init_ui = function ()
 	this.set_position (Gwt.screen_device.width * 0.025, Gwt.screen_device.height * 0.025);
 }
 
-Window.prototype.set_width_border = function (border)
+Window.prototype.set_border_width = function (border)
 {
 	this.set_size (this.width - (border*2), this.height - (border*2));
 	this.html.style.padding = border;
