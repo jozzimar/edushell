@@ -1,0 +1,27 @@
+.ish_panel_button
+{
+  background: transparent;
+  max-height: 32px;
+  min-height: 32px;
+  font-weight: bold;
+  font-size: 10pt;
+  color: #dddddd;
+  text-align: center;
+  text-transform: capitalize;
+  vertical-align: middle;
+  cursor: pointer;
+  border: none;
+  overflow: hidden;
+  position: absolute;
+  padding: 0;
+}
+.ish_panel_button p
+{
+  position: relative;
+  top: 8px;
+  font-weight: bold;
+}
+.ish_panel_button:hover
+{
+  color: #ffffff;
+}

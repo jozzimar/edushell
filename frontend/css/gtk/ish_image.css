@@ -1,0 +1,13 @@
+.ish_image
+{
+  cursor: default;
+  position: relative;
+  display: block;
+  float: left;
+}
+.ish_image img
+{
+  cursor: default;
+  width: 100%;
+  height: 100%;
+}

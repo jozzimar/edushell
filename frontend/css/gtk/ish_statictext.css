@@ -1,0 +1,8 @@
+.ish_statictext
+{
+  overflow: hidden;
+  position: relative;
+  width: auto;
+  display: block;
+  float: left;
+}

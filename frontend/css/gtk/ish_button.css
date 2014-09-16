@@ -1,0 +1,20 @@
+.ish_button
+{
+  max-height: 18px;
+  width: auto;
+  padding: 5px;
+  background: url("../../images/background_buttons.svg") top center no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  cursor: default;
+  border: 1px solid rgba(0,0,0,0.2);
+  display: inline-block;
+}
+.ish_button p
+{
+  position: relative;
+  color: rgba(0,0,0,0.75);
+  text-shadow: 1px 1px 1px rgba(255,255,255,1);
+}

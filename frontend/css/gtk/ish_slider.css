@@ -1,0 +1,24 @@
+.ish_slider
+{
+    /*background: gray;*/
+    position: relative;
+}
+.ish_slider .viewer_launcher
+{
+    /*background: red;*/
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+
+.ish_slider .viewer_launcher .slide
+{
+    /*background: blue;*/
+}
+
+.ish_slider .viewer_launcher .slide .ish_image
+{
+    width: 75px;
+    height: 75px;
+    margin: 21px;
+}

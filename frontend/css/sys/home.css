@@ -1,0 +1,291 @@
+html{
+  background: #ffffff;
+  min-width: 320px;
+  min-height: 320px;
+  max-width: 1920px;
+  max-height: 1080px;
+}
+body{
+  font-family: Helvetica, Sans, Dejavu-sans, Arial, sans-serif;
+  font-stretch: expanded;
+  font-size: 9pt;
+  min-width: 320px;
+  min-height: 320px;
+  max-width: 1920px;
+  max-height: 1080px;
+}
+a{
+  text-decoration: none;
+  color: #006680;
+}
+input{
+  background: white;
+  border: 1px solid gray;
+  min-width: 95%;
+  max-width: 95%;
+  display: block;
+  margin: auto;
+  border-radius: 3px;
+  text-transform: capitalize;
+}
+select{
+  min-width: 95%;
+  max-width: 95%;
+  background: white;
+  border: 1px solid gray;
+  border-radius: 3px;
+  display: block;
+  margin: auto;
+}
+textarea{
+  border: 1px solid gray;
+  border-radius: 3px;
+  background: white;
+  max-width: 95%;
+  min-width: 95%;
+  max-height: 20%;
+  min-height: 20%;
+  text-align: justify;
+  margin: auto;
+  display: block;
+  line-height: 15pt;
+  }
+a:hover{
+  color: #165016;
+}
+label{
+  font-weight: bold;
+  color: #555555;
+  vertical-align: top;
+  display: block;
+}
+ 
+.formulario{
+  width: 100%;
+  max-width: 100%;
+}
+.formulario .descripcion{
+  width: 34%;
+  float: left;
+  margin: 0 5px 0 0;
+  color: #555555;
+}
+.formulario .informacion{
+  width: 65%;
+  float: left;
+  text-align: right;
+}
+.errorFormulario{
+  width: 95%;
+  color:#cc3300;
+  margin: 0 0 0 15px;
+  display: none;
+}
+.errorFormulario img, .errorFormulario p{
+  display: inline-block;
+  vertical-align: middle;
+}
+.errorFormulario img{
+  margin: 0 5px 0 0;
+}
+.congruencias{
+  min-width: 95%;
+  max-width: 95%;
+  margin: auto;
+  border: solid gray;
+  border-width: 0 1px 1px 1px;
+  border-radius: 3px;
+  display: none;
+}
+.congruencias li{
+  padding: .5%;
+}
+.congruencias li:hover{
+  background: #ccccff;
+  cursor: pointer;
+}
+.fecha{
+  display: inline;
+  margin: 0 1% 0 0;
+  min-width: 15%;
+  max-width: 15%;
+}
+#contenedor{
+  max-width: 1280px;
+  width: 960px;
+  overflow: hidden;
+  margin: auto;
+  padding: 5px 0;
+}
+#contenedor #row:first-child{
+  background: url('../../images/ironcorp/f1.png') no-repeat right;
+  width: 960px;
+  height: 600px;
+  overflow: hidden;
+}
+#contenedor #row:first-child #explorar{
+  float: right;
+  margin: 540px 15px 0 0;
+}
+#contenedor #row:first-child form{
+  width: 200px;
+  height: 280px;
+  overflow: hidden;
+  position: absolute;
+  display: inline;
+  margin: 240px 0 0 30px
+}
+#contenedor #row ul.info{
+  width: 291px;
+  height: 242px;
+  float: left;
+}
+#contenedor #row ul.info:first-child{
+  margin: 0 0 0 5px;
+}
+#contenedor #row ul.info+ul.info{
+  margin: 0 0 0 40px;
+}
+#contenedor #row ul.info{
+  text-align: center;
+}
+
+#linea{
+  width: 100%;
+  height: 5px;
+  background: #4d4d4d;
+  margin: 0 0 10px 0;
+}
+#cabecera p{
+  text-align: right;
+  margin: 0px 10px;
+  display: inline-block;
+  float: right;
+}
+#cabecera p span{
+  font-size: smaller;
+}
+#slogan{
+  display: table;
+  float: left;
+  margin: 0 0 0 10px;
+}
+#slogan div, #slogan img{
+  display: table-cell;
+  vertical-align: middle;
+}
+#slogan img {
+  display: table-cell;
+  margin: 0 10px 0px 0px;
+}
+#menu{
+  width: 20%;
+  float: left;
+}
+#contenidos{
+  min-width: 60%;
+  width: 60%;
+  float: left;
+  overflow: hidden;
+}
+#contenidos .especial li{
+  list-style: url('../../images/vineta.png') inside;
+  margin-top: 10px;
+}
+#complemento{
+  width: 20%;
+  float: left;
+  visibility: hidden;
+}
+#complemento ul li{
+  list-style: none;
+}
+.chat{
+  position: fixed;
+  width: 250px;
+  height: 250px;
+  background: url("../../images/chat/fondo1.png") no-repeat left;
+  z-index: 5;
+  bottom: 1px;
+  right: 1px;
+  font-size: 90%;
+}
+.chat .cabecera{
+  width: 98%;
+  height: 8%;
+  background: #ddddff;
+  border: solid gray;
+  border-width: 0 0 1px 0;
+  color: #555555;
+  padding: 1%;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: right;
+}
+.chat .cabecera *{
+  cursor: default;
+}
+.chat .cuerpo{
+  width: 96%;
+  height: 76%;
+  padding: 2%;
+  overflow: auto;
+}
+.chat .cuerpo h3{
+  display: inline;
+  color: #555555;
+}
+.chat .cuerpo p{
+  display: inline;
+  color: #444444;
+}
+.chat .pie{
+  width: 100%;
+  height: 10%;
+  border: solid gray;
+  border-width: 1px 0 0 0;
+}
+.chat .pie input{
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 0%;
+  min-height: 0%;
+  width: 100%;
+  height: 90%;
+  border: none;
+}
+
+.chat input.login{
+  min-width: 0px;
+  min-height: 0px;
+  margin: 0 0 0 0;
+  width: 206px;
+  height: 16px;
+  position: relative;
+  outline: none;
+  border: none;
+  outline: none;
+  background: transparent;
+  display: block;
+}
+.chat #nombre{
+  top: 109px;
+  left: 17px;
+}
+.chat #nro_de_documento{
+  top: 143px;
+  left: 17px;
+}
+.chat img.comodin{
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 0;
+  min-height: 0;
+  margin: 0 0 0 0;
+  width: 78px;
+  height: 19px;
+  position: relative;
+  top: 170px;
+  left: 85px;
+  cursor: pointer;
+}

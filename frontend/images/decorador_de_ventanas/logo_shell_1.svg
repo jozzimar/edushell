@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="logo_shell_1.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3972">
+      <stop
+         style="stop-color:#00379b;stop-opacity:1;"
+         offset="0"
+         id="stop3974" />
+      <stop
+         style="stop-color:#00379b;stop-opacity:0;"
+         offset="1"
+         id="stop3976" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="61.789227 : 489.32872 : 1"
+       inkscape:vp_y="124.46974 : 666.08555 : 0"
+       inkscape:vp_z="556.33277 : 396.2831 : 1"
+       inkscape:persp3d-origin="287.22979 : 325.9787 : 1"
+       id="perspective3899" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="48.302472 : 638.1336 : 1"
+       inkscape:vp_y="371.5503 : 928.41283 : 0"
+       inkscape:vp_z="739.12933 : 361.66507 : 1"
+       inkscape:persp3d-origin="328.54832 : 337.06157 : 1"
+       id="perspective3867" />
+    <linearGradient
+       id="linearGradient3820">
+      <stop
+         id="stop3822"
+         offset="0"
+         style="stop-color:#0064dc;stop-opacity:1;" />
+      <stop
+         id="stop3824"
+         offset="1"
+         style="stop-color:#003264;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3972"
+       id="linearGradient3978"
+       x1="245.17101"
+       y1="490.4577"
+       x2="254.47763"
+       y2="490.4577"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3972"
+       id="linearGradient3980"
+       x1="397.56656"
+       y1="491.59491"
+       x2="538.78407"
+       y2="491.59491"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#004bc8"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="329.45396"
+     inkscape:cy="583.70099"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="753"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3911"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3913"><rect
+           id="rect3915"
+           width="50"
+           height="107"
+           x="198"
+           y="477.36218" /></flowRegion><flowPara
+         id="flowPara3917"></flowPara></flowRoot>    <g
+       style="font-size:297.92010497999996232px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#001b37;fill-opacity:1;stroke:#00194b;font-family:Sans;stroke-opacity:1"
+       id="text3928"
+       transform="matrix(1.05498,0,0,1.0894354,-18.230613,-38.325066)"
+       inkscape:export-filename="/home/joseluis/Sites/pcce/public/imagenes/decorador_de_ventanas/logo_shell_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         d="m 331.49122,439.38495 c 21.74815,15.49183 28.89825,26.21699 28.89825,42.9005 0,19.36478 -13.40642,32.77121 -32.77121,32.77121 m 0,0 c -22.6419,0 -44.63204,-15.86204 -43.52316,-39.52679 1.10888,-23.66475 16.01883,-42.25087 -3.50239,-21.67095 -7.91028,8.33929 -14.19489,19.1173 -12.79842,31.58979 2.61747,20.08219 22.88191,37.94971 56.54685,37.94971 35.75038,0 58.69026,-19.66276 58.69026,-50.3485 0,-22.93982 -10.12932,-37.53796 -50.49745,-67.03202 -30.83471,-19.96063 -41.55986,-33.66499 -41.55986,-50.3485 0,-17.27935 13.40642,-29.49409 32.17537,-29.49409 20.25855,0 33.06913,13.10851 33.06913,33.66497 0,16.98143 -8.34178,28.38786 -22.344,43.28386 32.47326,-12.21471 42.90049,-22.72739 42.90049,-42.98594 0,-24.42942 -21.45028,-42.30465 -51.24226,-42.30465 -32.47326,0 -56.60482,19.96067 -56.60482,47.07137 0,19.36479 5.66051,28.00452 40.81505,58.39235 l 21.74817,16.08768"
+         style="font-variant:normal;font-stretch:normal;fill:#001b37;font-family:Serif;-inkscape-font-specification:Serif;stroke:#00194b;fill-opacity:1;stroke-opacity:1"
+         id="path3933"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cscczscsscssscssscc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:98.88835143999999389px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#001b37;fill-opacity:1;stroke:#00194b;stroke-opacity:1;font-family:Sans"
+       x="391.14438"
+       y="508.5025"
+       id="text3935"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/joseluis/Sites/pcce/public/imagenes/decorador_de_ventanas/logo_shell_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3937"
+         x="391.14438"
+         y="508.5025"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#001b37;fill-opacity:1;stroke:#00194b;stroke-opacity:1;font-family:Serif;-inkscape-font-specification:Serif">hell</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3968"
+       y="508.5025"
+       x="231.14438"
+       style="font-size:98.88835143999999389px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#001b37;fill-opacity:1;stroke:#00194b;stroke-opacity:1;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/joseluis/Sites/pcce/public/imagenes/decorador_de_ventanas/logo_shell_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="508.5025"
+         x="231.14438"
+         id="tspan3970"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#001b37;fill-opacity:1;stroke:#00194b;stroke-opacity:1;font-family:Serif;-inkscape-font-specification:Serif">i</tspan></text>
+    <rect
+       style="fill:none;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4005"
+       width="350"
+       height="250"
+       x="203"
+       y="298.36218"
+       inkscape:export-filename="/home/joseluis/Sites/pcce/public/imagenes/decorador_de_ventanas/logo_shell_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>

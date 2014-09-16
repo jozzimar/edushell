@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created using Karbon, part of Calligra: http://www.calligra.org/karbon -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17.6pt" height="17.6pt">
+<defs>
+  <filter id="filter0" filterUnits="objectBoundingBox" primitiveUnits="objectBoundingBox" x="-0.13542914000" y="-0.12865769000" width="1.27085830000" height="1.25731540000">
+   <feGaussianBlur result="" in="" x="0.00000000000" y="0.00000000000" width="1.00000000000" height="1.00000000000" stdDeviation="0.06000000000"/>
+  </filter>
+  <linearGradient id="gradient0" gradientTransform="" gradientUnits="objectBoundingBox" x1="1.00000000000" y1="0.50756507603" x2="0.00000000000" y2="0.48991323235" spreadMethod="pad">
+   <stop stop-color="#cccccc" offset="0.02000000000" stop-opacity="1.00000000000"/>
+   <stop stop-color="#ffffff" offset="0.97408905699" stop-opacity="1.00000000000"/>
+  </linearGradient>
+ </defs>
+<g id="layer1">
+  <path id="path3858" transform="matrix(0 0.911112 -0.865557 0 19.6556 2.34445)" fill="#d40000" filter="url(#filter0)" d="M19 10C19 15.5228 14.7467 20 9.5 20C4.25329 20 0 15.5228 0 10C-2.53903e-08 4.47715 4.25329 8.88178e-16 9.5 0C14.7467 -8.88178e-16 19 4.47715 19 10Z"/>
+  <path id="path3024" transform="matrix(0 0.809234 -0.767984 0 18.6798 3.31228)" fill="url(#gradient0)" stroke="#d40000" stroke-width="0.81223285000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4.00000000000" d="M19 10C19 15.5228 14.7467 20 9.5 20C4.25329 20 0 15.5228 0 10C0 4.47715 4.25329 0 9.5 0C14.7467 0 19 4.47715 19 10Z"/>
+  <path id="path3821" transform="matrix(0.717004 0 0 0.720843 8.38556 7.32042)" fill="none" stroke="#ffffff" stroke-width="1.09941411000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2.00000000000" d="M0 10.7733L10.4528 0"/>
+  <path id="path38211" transform="matrix(-1 0 0 1 13.5563 7.32042)" fill="none" stroke="#ffffff" stroke-width="1.09941411000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2.00000000000" d="M0 7.90141L7.32042 0L7.32042 0"/>
+  <path id="path3066" transform="matrix(0.805681 0 0 0.641504 6.26008 7.03454)" fill="#d40000" d="M11.5387 0L7.15076 5.9048L11.7663 12.1347L9.41517 12.1347L5.88313 7.3675L2.35108 12.1347L0 12.1347L4.713 5.7857L0.400876 2.27374e-13L2.75196 2.27374e-13L5.9698 4.323L9.18764 2.27374e-13L11.5387 2.27374e-13"/>
+ </g>
+</svg>

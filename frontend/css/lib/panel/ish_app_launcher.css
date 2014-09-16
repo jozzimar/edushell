@@ -1,0 +1,7 @@
+.ish_app_launcher
+{
+  background: url("../../../images/background_app_launcher.svg") top no-repeat;
+  border: none;
+  position: absolute;
+  overflow: hidden;
+}

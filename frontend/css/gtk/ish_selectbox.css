@@ -1,0 +1,33 @@
+.ish_selectbox
+{
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  height: 32px;
+  overflow: hidden;
+  border: 1px solid #c8c8c8;
+  background: url("../../images/decorador_de_ventanas/down.svg") #fafafa no-repeat right center;
+  background-size: 22px;
+  position: relative;
+}
+.ish_selectbox input
+{
+  background: transparent !important;
+  width: 97%;
+  height: 28px;
+  padding: 3px;
+  border: none;
+  position: absolute;
+}
+.ish_selectbox select
+{
+  min-width: 0;
+  width: 100%;
+  height: 33px;
+  background: white;
+  opacity: 0;
+  border: none;
+  outline: none;
+  position: absolute;
+  z-index: 2;
+}

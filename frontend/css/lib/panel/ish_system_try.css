@@ -1,0 +1,12 @@
+.ish_system_try
+{
+    position: absolute;
+}
+.ish_system_try .ish_image
+{
+    float: right;
+}
+.ish_system_try .ish_image img
+{
+    cursor: pointer !important;
+}

@@ -1,0 +1,16 @@
+.ish_notify
+{
+  background: url("../../images/background_notify.svg") top no-repeat transparent;
+  border: none;
+  position: absolute;
+  overflow: hidden;
+  z-index: 1000;
+}
+.ish_notify .ish_statictext
+{
+  font-weight: bold;
+  font-size: 11pt;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.66);
+  position: relative;
+}
