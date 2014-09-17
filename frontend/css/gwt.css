@@ -14,6 +14,7 @@
   margin: none;
   padding: none;
   background: url("../../frontend/images/blurred_background2.jpg");
+  /*background-color: white;*/
   background-attachment: fixed;
   background-clip: content-box;
   background-repeat: no-repeat;
@@ -28,7 +29,7 @@
 {
   max-height: 100%;
   max-width: 100%;
-  background: url("../../frontend/images/background_windows.svg") top center no-repeat rgba(255,255,255,0.1);
+  background: /*url("../../frontend/images/background_windows.svg") top center no-repeat*/ rgba(200,200,200, 0.25);
   background-size:  cover;
   box-shadow: 0 0 10px 0px rgba(0,0,0, 0.3);
   border-top: 1px solid rgba(255,255,255,0.3);
@@ -40,19 +41,21 @@
   display: block;
   overflow: hidden;
 }
-.gwt_window *
-{
-  margin-top: 10px;
-}
 
-.gwt_statictext
+.gwt_label
 {
    font-family: Cantarell;
    font-weight: bold;
    text-shadow: 1px 1px 1px rgba(0,0,0,0.66);
    font-size: 11pt;
-   color: rgba(255,255,255,0.8);
+   color: rgba(255,255,255, 0.9);
    cursor: default;
+   -moz-user-select: none;
+   -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
 }
 
 .gwt_image

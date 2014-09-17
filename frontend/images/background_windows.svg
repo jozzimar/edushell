@@ -26,14 +26,14 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1280"
-     inkscape:window-height="749"
+     inkscape:window-height="750"
      id="namedview3055"
      showgrid="false"
      inkscape:zoom="0.9516129"
-     inkscape:cx="26.549352"
+     inkscape:cx="-162.60319"
      inkscape:cy="124"
      inkscape:window-x="0"
-     inkscape:window-y="26"
+     inkscape:window-y="25"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <defs
@@ -42,11 +42,11 @@
        id="linearGradient4452">
       <stop
          offset="0"
-         style="stop-color:#ffffff;stop-opacity:0.32941177;"
+         style="stop-color:#c8c8c8;stop-opacity:0.49803922;"
          id="stop4454" />
       <stop
          offset="1"
-         style="stop-color:#ffffff;stop-opacity:0;"
+         style="stop-color:#c8c8c8;stop-opacity:0.21568628;"
          id="stop4456" />
     </linearGradient>
     <linearGradient
@@ -127,7 +127,7 @@
     </rdf:RDF>
   </metadata>
   <rect
-     style="fill:url(#linearGradient4450);fill-opacity:1;fill-rule:nonzero;stroke:none"
+     style="fill:url(#linearGradient4450);fill-opacity:1.0;fill-rule:nonzero;stroke:none"
      id="rect3800"
      y="0"
      x="0"

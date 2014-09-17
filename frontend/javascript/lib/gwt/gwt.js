@@ -1,5 +1,7 @@
 var Gwt = (function ()
 {
+//####################################################################################################
+//environments constants
 var host = "../../frontend/";
 //##################################################################################################
 //screen info
@@ -40,10 +42,11 @@ function Frame ()
 	this.html = document.createElement("div");
 	this.html.className = "gwt_frame";
 	
-	this.width;
-	this.height;
-	this.x;
-	this.y;
+	this.border = 0;
+	this.width = 0;
+	this.height = 0;
+	this.x = 0;
+	this.y = 0;
 }
 	
 Frame.prototype.finalize = function ()
@@ -61,22 +64,6 @@ Frame.prototype.add = function (element)
 	this.html.appendChild (element.html);
 }
 
-Frame.prototype.set_size = function (width, height)
-{
-	this.width = width;
-	this.height = height;
-	this.html.style.width = width+"px";
-	this.html.style.height = height+"px";
-}
-
-Frame.prototype.set_position = function (x, y)
-{
-	this.x = x;
-	this.y = y;
-	this.html.style.left = x;
-	this.html.style.top = y;
-}
-
 Frame.prototype.attach_event = function (event, fn)
 {
 	this.html.addEventListener (event, fn, false);
@@ -85,6 +72,74 @@ Frame.prototype.attach_event = function (event, fn)
 Frame.prototype.remove_event = function (event, fn)
 {
 	this.html.removeEventListener (event, fn, false);
+}
+
+Frame.prototype.set_size = function (width, height)
+{
+	this.width = width;
+	this.height = height;
+	this.html.style.width = (this.width-(this.border*2))-2+"px";
+	this.html.style.height = (this.height-(this.border*2))-2+"px";
+}
+
+Frame.prototype.get_size = function ()
+{
+	return {width: this.width, height: this.height};
+}
+
+Frame.prototype.set_position = function (x, y)
+{
+	if (x == Gwt.WIN_POS_CENTER && y == undefined)
+	{
+		this.x = (Gwt.SCREEN_DEVICE.width/2) - (this.width/2);
+		this.y = (Gwt.SCREEN_DEVICE.height/2) - (this.height/2);
+	}
+	else if (x != undefined && y != undefined)
+	{
+		switch (x)
+		{
+			case Gwt.WIN_POS_LEFT:
+				this.x = 0;
+				break;
+			
+			case Gwt.WIN_POS_CENTER:
+				this.x = (Gwt.SCREEN_DEVICE.width/2) - (this.width/2);
+				break;
+			
+			case Gwt.WIN_POS_RIGHT:
+				this.x = (Gwt.SCREEN_DEVICE.width - this.width)-2;
+				break;
+				
+			default:
+				this.x = x;
+		}
+		
+		switch (y)
+		{
+			case Gwt.WIN_POS_TOP:
+				this.y = 0;
+				break;
+				
+			case Gwt.WIN_POS_CENTER:
+				this.y = (Gwt.SCREEN_DEVICE.height/2) - (this.height/2);
+				break;
+				
+			case Gwt.WIN_POS_BOTTOM:
+				this.y = (Gwt.SCREEN_DEVICE.height - this.height)-2;
+				break;
+				
+			default:
+				this.y = y;
+		}
+	}
+	else
+	{
+		this.x = 0;
+		this.y = 0;
+	}
+	
+	this.html.style.left = this.x;
+	this.html.style.top = this.y;
 }
 //Ends Gwt::Frame Class
 
@@ -95,7 +150,6 @@ function Desktop ()
 	Frame.call(this);
 	this.html = document.body;
 	this.html.className = "gwt_desktop";
-	
 	this.adjustment_size ();
 }
 
@@ -103,12 +157,13 @@ Desktop.prototype = Object.create (Frame.prototype);
 
 Desktop.prototype.finalize = function ()
 {
-	Frame.prototype.finalize.call (this);
+
+Frame.prototype.finalize.call (this);
 }
 
 Desktop.prototype.adjustment_size = function ()
 {
-	this.set_size (Gwt.screen_device.width, Gwt.screen_device.height);
+this.set_size (Gwt.SCREEN_DEVICE.width, Gwt.SCREEN_DEVICE.height);
 }
 //Ends Gwt::Desktop
 //##################################################################################################
@@ -118,7 +173,6 @@ function Window ()
 {
 	Frame.call(this);
 	this.html.className = "gwt_window";
-	
 	this.init_ui ();
 }
 
@@ -131,44 +185,45 @@ Window.prototype.finalize = function ()
 
 Window.prototype.init_ui = function ()
 {
-    this.set_size (Gwt.screen_device.width * 0.95, Gwt.screen_device.height * 0.95);
-	this.set_position (Gwt.screen_device.width * 0.025, Gwt.screen_device.height * 0.025);
+	this.set_border_width (10);
+	this.set_size (Gwt.SCREEN_DEVICE.width * 0.95, Gwt.SCREEN_DEVICE.height * 0.95);
+	this.set_position (Gwt.WIN_POS_CENTER);
 }
 
 Window.prototype.set_border_width = function (border)
 {
-	this.set_size (this.width - (border*2), this.height - (border*2));
+	this.border = border;
+	this.set_size (this.width - (this.border*2), this.height - (this.border*2));
 	this.html.style.padding = border;
 }
 //Ends Gwt::Window
 //##################################################################################################
 
-//Class Gwt::Static_text
-function Static_text ()
+//Class Gwt::Label
+function Label ()
 {
 	Frame.call (this);
 	this.html = document.createElement("p");
-	this.html.className = "gwt_statictext";
+	this.html.className = "gwt_label";
 	this.text = "Default text";
-	
 	this.html.textContent = this.text;
 }
 
-Static_text.prototype = Object.create (Frame.prototype);
+Label.prototype = Object.create (Frame.prototype);
 
-Static_text.prototype.finalize = function ()
+Label.prototype.finalize = function ()
 {
 	Frame.finalize.call (this);
 	this.text = null;
 }
 
-Static_text.prototype.set_text = function (text)
+Label.prototype.set_text = function (text)
 {
 	this.text = text;
 	this.html.textContent = this.text;
 }
 
-Static_text.prototype.set_size = function (size)
+Label.prototype.set_size = function (size)
 {
 	this.html.style.fontSize = size;
 }
@@ -210,12 +265,12 @@ Entry.prototype = Object.create (Frame.prototype);
 
 Entry.prototype.finalize = function ()
 {
-    Frame.prototype.finalize.call (this);
+	Frame.prototype.finalize.call (this);
 }
 
 Entry.prototype.set_placeholder = function (text)
 {
-    this.html.placeholder = text;
+	this.html.placeholder = text;
 }
 //Ends Gwt::Entry
 //##################################################################################################
@@ -227,7 +282,6 @@ function Selectbox ()
 	this.html = document.createElement("ol");
 	this.html.className = "gwt_selectbox";
 	this.options = [];
-	
 	this.init ();
 }
 
@@ -256,14 +310,17 @@ Selectbox.prototype.push = function (value, text)
 //Ends Gwt::Selectbox
 //##################################################################################################
 
-//Ends Gwt's Classes;
-//Gwt Module. Public Class list
 return {
-screen_device : screen_device(),
+WIN_POS_CENTER : "WIN_POS_CENTER",
+WIN_POS_LEFT : "WIN_POS_LEFT",
+WIN_POS_TOP : "WIN_POS_TOP",
+WIN_POS_RIGHT : "WIN_POS_RIGHT",
+WIN_POS_BOTTOM : "WIN_POS_BOTTOM",
+SCREEN_DEVICE : screen_device(),
 Frame : Frame,
 Desktop : Desktop,
 Window : Window,
-Static_text : Static_text,
+Label : Label,
 Image : Image,
 Entry : Entry,
 Selectbox : Selectbox

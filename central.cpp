@@ -23,26 +23,26 @@ public:
 		  //dispatcher ().assign ("/get", &users::get, this);
 		  //mapper ().assign ("get", "/get");
   
-		  dispatcher ().assign ("/html", &central::html, this);
-		  mapper ().assign ("html", "/html");
+		  dispatcher ().assign ("/osw", &central::osw, this);
+		  mapper ().assign ("osw", "/osw");
 
 		  mapper ().root ("/central");
 	}
 	
-	void html ();
+	void osw ();
 	void welcome ();
 	
 };
 
-void central::html ()
+void central::osw ()
 {
   response ().out () << 
     "<html>\n"
     "<head>\n"
     	"<meta name=\"viewport\" content=\"width=device-width, user-scalable=no, content=\"initial-scale=1, maximum-scale=1\">\n"
     	"<link type=\"text/css\" rel=\"stylesheet\" id=\"reset\" href=\"../../frontend/css/reset.css\"></script>\n"
-		"<script type=\"text/javascript\" src=\"../../frontend/javascript/gwt.js\"></script>\n"
-		"<script type=\"text/javascript\" src=\"../../frontend/javascript/init_d.js\"></script>\n"
+		"<script type=\"text/javascript\" src=\"../../frontend/javascript/lib/gwt.js\"></script>\n"
+		"<script type=\"text/javascript\" src=\"../../frontend/javascript/bin/init_d.js\"></script>\n"
     "</head>\n"
     "<body>\n"
     "</body>\n"
